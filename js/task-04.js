@@ -1,7 +1,6 @@
-const value = document.querySelector("span");
+// const value = document.querySelector("span");
 // console.log(value.textContent);
 let counterValue = 0;
-
 const decBtn = document.querySelector('[data-action="decrement"]');
 const incBtn = document.querySelector('[data-action="increment"]');
 
