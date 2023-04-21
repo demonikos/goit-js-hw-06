@@ -8,4 +8,13 @@ const nameOutput = document.querySelector("#name-output");
 //     nameOutput.textContent = event.currentTarget.value;
 // })
 
-nameInput.addEventListener("input", (event) => event.currentTarget.value === "" ? nameOutput.textContent = "Anonymous" : nameOutput.textContent = event.currentTarget.value)
+
+// nameInput.addEventListener("input", (event) => event.currentTarget.value === "" ? nameOutput.textContent = "Anonymous" : nameOutput.textContent = event.currentTarget.value)
+
+
+nameInput.addEventListener("input", (event) => {
+    if (event.currentTarget.value.trim() === ""){
+    nameOutput.textContent = "Anonymous";
+    } else
+    nameOutput.textContent = event.currentTarget.value.trim();
+})
