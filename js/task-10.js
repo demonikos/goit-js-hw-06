@@ -62,17 +62,17 @@ if (value>=min && value<=max) {
 }
 
 // const newBoxes = validator(value, min, max, step)
-controlsAmount.value = "";
-// console.log(newBoxes);
+// controlsAmount.value = "";
+// // console.log(newBoxes);
 
-console.log (controlsAmount)
-console.log (controlsAmount.attributes)
-console.log (value)
-console.log (typeof(value))
-console.log (min)
-console.log (typeof(min))
-console.log (max)
-console.log (typeof(max))
+// console.log (controlsAmount)
+// console.log (controlsAmount.attributes)
+// console.log (value)
+// console.log (typeof(value))
+// console.log (min)
+// console.log (typeof(min))
+// console.log (max)
+// console.log (typeof(max))
 
 
 const newGallery = newBoxes.map((box) => `<div style="width:${box}px; height:${box}px; background-color: ${getRandomHexColor()}"></div>`).join("");
